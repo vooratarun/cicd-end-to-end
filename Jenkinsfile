@@ -28,8 +28,6 @@ pipeline {
         stage('Push the artifacts'){
            steps{
                 script{
-
-                    sh 'sudo su'
                     
                     sh '''
                     echo 'Push to Repo'
